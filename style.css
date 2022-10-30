@@ -36,6 +36,7 @@
 
 html,
 body {
+	font-size: 1.25rem;
 	margin: 0;
 	padding: 0;
 }
@@ -69,11 +70,11 @@ main {
 .max-width-wrapper {
 	margin-inline-start: auto;
 	margin-inline-end: auto;
-	max-width: calc(78 * var(--xxsmall-spacing));
+	max-width: calc(96* var(--xxsmall-spacing));
 }
 
 .intro-chunk {
-	max-width: calc(48 * var(--xxsmall-spacing));
+	max-width: calc(56 * var(--xxsmall-spacing));
 	padding-block-start: var(--xlarge-spacing);
 	padding-block-end: var(--large-spacing);
 	padding-inline: var(--small-spacing);
