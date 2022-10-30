@@ -1,3 +1,15 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+	font-size: 1.2rem;
+	margin: 0;
+	padding: 0;
+}
+
 :root {
 	/* COLORS */
 	/* grayscale colors */
@@ -23,22 +35,10 @@
 	--xxxlarge-spacing: 128px;
 
 	/* FONT SIZES */
-	--medium-font-size: 1rem;
-	--large-font-size: 1.25rem;
+	--medium-font-size: 1.2rem;
+	--large-font-size: 1.3rem;
 	--xlarge-font-size: 1.5rem;
 	--xxlarge-font-size: 2rem;
-}
-
-* {
-	box-sizing: border-box;
-	font-family: 'Lato', sans-serif;
-}
-
-html,
-body {
-	font-size: 1.25rem;
-	margin: 0;
-	padding: 0;
 }
 
 /* Add styles here! */
@@ -47,12 +47,12 @@ h1 {
 	font-size: var(--xxlarge-font-size);
 }
 
-p {
-	font-size: var(--medium-font-size);
+h2 {
+	font-size: var(--xlarge-font-size);
 }
 
-h2 {
-	font-size: var(--large-font-size);
+p {
+	line-break: loose;
 }
 
 strong {
@@ -70,14 +70,15 @@ main {
 .max-width-wrapper {
 	margin-inline-start: auto;
 	margin-inline-end: auto;
-	max-width: calc(96* var(--xxsmall-spacing));
+	max-width: calc(107 * var(--xxsmall-spacing));
 }
 
 .intro-chunk {
-	max-width: calc(56 * var(--xxsmall-spacing));
+	max-width: calc(70 * var(--xxsmall-spacing));
 	padding-block-start: var(--xlarge-spacing);
 	padding-block-end: var(--large-spacing);
 	padding-inline: var(--small-spacing);
+	font-size: var(--large-font-size);
 }
 
 .title {
